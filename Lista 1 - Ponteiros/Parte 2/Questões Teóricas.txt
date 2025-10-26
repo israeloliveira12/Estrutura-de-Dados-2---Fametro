@@ -1,0 +1,12 @@
+Qual das seguintes afirmações sobre ponteiros em C é VERDADEIRA?
+a) Um ponteiro armazena o valor de uma variável.
+b) Um ponteiro armazena o endereço de memória de uma variável.
+c) A declaração int *p; aloca memória para um inteiro.
+d) O operador & é usado para acessar o valor apontado por um ponteiro.
+
+Resposta:
+b)
+
+Explicação:
+Um ponteiro guarda o endereço de memória de outra variável. A declaração int *p; apenas cria o ponteiro, sem alocar
+memória para um inteiro. O operador & obtém o endereço de uma variável, enquanto * acessa o valor apontado.
