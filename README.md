@@ -1,60 +1,25 @@
-Utilitários de Ponteiros em C
+Lista de Exercícios: Ponteiros em C
 
-Coleção de programas e funções em C demonstrando manipulação avançada de ponteiros, manipulação de strings e operações aritméticas básicas. Projetado para operações limpas, reutilizáveis e eficientes com ponteiros.
+Exercícios sobre ponteiros em C, divididos em Parte I – Prática e Parte II – Teoria.
 
-Módulos
-1. Troca de Valores
+Parte I – Prática
 
-Função para trocar dois valores inteiros usando ponteiros.
+Troca de valores entre duas variáveis via ponteiros.
 
-void swap(int *a, int *b);
+Encontrar maior e menor de um array usando ponteiros.
 
-2. Análise de Array
+Imprimir valor, endereço e valor apontado de uma variável.
 
-Determina os valores máximo e mínimo de um array utilizando ponteiros.
+Dobrar o valor de uma variável via ponteiro.
 
-void findMaxMin(int *array, int size, int *max, int *min);
+Copiar string usando ponteiros (sem strcpy).
 
-3. Inspeção de Memória
+Contar vogais e consoantes de uma string via ponteiros.
 
-Demonstra como acessar o valor de uma variável, seu endereço, o valor do ponteiro e o valor apontado.
+Inverter string "in-place" usando ponteiros.
 
-4. Dobro do Valor
+Calculadora básica usando ponteiros para armazenar resultados.
 
-Função que dobra o valor de um inteiro via ponteiro.
+Parte II – Teoria
 
-void doubleValue(int *num);
-
-5. Cópia de String
-
-Copia uma string para outra usando ponteiros, sem utilizar strcpy.
-
-void copyString(char *source, char *destination);
-
-6. Contador de Vogais e Consoantes
-
-Conta vogais e consoantes de uma string e retorna os valores via ponteiros.
-
-void countVowelsConsonants(char *str, int *vowels, int *consonants);
-
-7. Inversão de String In-Place
-
-Inverte uma string diretamente na memória usando ponteiros.
-
-void reverseString(char *str);
-
-8. Calculadora Básica
-
-Realiza adição, subtração, multiplicação e divisão entre dois números float e armazena os resultados via ponteiros.
-
-void calculator(float a, float b, float *sum, float *sub, float *mul, float *div);
-
-Conceitos-Chave
-
-Ponteiros: armazenam endereços de memória, permitindo manipulação indireta de variáveis.
-
-Desreferenciação (*): acessar ou modificar o valor de um endereço.
-
-Operador &: obter o endereço de uma variável.
-
-Operações in-place: modificam os dados originais sem alocar memória adicional.
+Autor : Israel Oliveira
